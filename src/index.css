@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(https://fonts.google.com/specimen/Roboto?query=roboto);
+
+@layer base {
+    body {
+        @apply font-[Roboto];
+    }
+}
